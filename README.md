@@ -27,7 +27,7 @@ Lendica iBranch has to be installed for the lendica API to work.
 Pass the clickHandler with lendica paylater function to open in-app popup.
 ```javascript
 const clickHandler = () => {
-    lendica.paylater.openInApp(url, onComplete)
+    lendica.ibranch.openPayLater(partner_bill_uuid);
 }
 ```
 
